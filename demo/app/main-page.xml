@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:BottomNav="nativescript-bottomnavigation" loaded="pageLoaded">
+	<GridLayout rows="*, auto" columns="*, *">
+		<Label row="0" colSpan="2" text="Hello" class="message" textWrap="true" />
+		<Placeholder row="1" colSpan="2" verticalAlignment="bottom" creatingView="createBar" />
+	</GridLayout>
+</Page>
